@@ -8,7 +8,7 @@ Format: #[project]-[issue number][message]
 
 **Accepted format examples**:  
 "#A-01 Edit something"  
-"#BWIDK-329 solved"
+"#BWIDK-329 solved"  
 ...
 
 **Not accepted examples**:  
