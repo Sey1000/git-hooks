@@ -2,9 +2,11 @@
 
 Git hook to enforce a team to always add Jira issue number to the commit message
 
-Format: #[project]-[issue number]
+Format: #[project]-[issue number][message]
 
-Accepted format examples: #A-01, #BWIDK-329
+Accepted format examples: "#A-01 Edit something", "#BWIDK-329 solved", ...
+
+Not accepted examples: 
 
 ```
 rm .git/hooks/commit-msg.sample
