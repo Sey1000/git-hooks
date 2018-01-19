@@ -4,7 +4,7 @@ Git hook to enforce a team to always add Jira issue number to the commit message
 
 Format: #[project]-[issue number]
 
-Accepted format: #
+Accepted format examples: #A-01, #BWIDK-329
 
 ```
 rm .git/hooks/commit-msg.sample
@@ -14,4 +14,3 @@ curl https://raw.githubusercontent.com/Sey1000/git-hooks/master/jira-commit-msg.
 chmod +x .git/hooks/commit-msg
 
 ```
-blah
