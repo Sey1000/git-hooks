@@ -23,3 +23,16 @@ curl https://raw.githubusercontent.com/Sey1000/git-hooks/master/jira-commit-msg.
 
 chmod +x .git/hooks/commit-msg
 ```
+
+### 2. pre-commit-eslint
+
+Git hook to lint staged js files using eslint
+Reference: https://medium.com/@shettyrahul8june/how-to-run-eslint-using-pre-commit-hook-25984fbce17e
+
+```
+rm .git/hooks/pre-commit.sample
+
+curl https://raw.githubusercontent.com/Sey1000/git-hooks/master/pre-commit-eslint.sh > .git/hooks/pre-commit
+
+chmod +x .git/hooks/pre-commit
+```
