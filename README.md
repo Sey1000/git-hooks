@@ -11,7 +11,7 @@ Format: #[project]-[issue number][message]
 "#BWIDK-329 solved"
 ...
 
-**Not accepted examples**: 
+**Not accepted examples**:  
 "E-12 missing '#'"  
 "#B missing issue number"  
 ... 
