@@ -12,8 +12,8 @@ Format: #[project]-[issue number][message]
 ...
 
 **Not accepted examples**: 
-"E-12 missing '#'" 
-"#B missing issue number" 
+"E-12 missing '#'"  
+"#B missing issue number"  
 ... 
 
 ```
